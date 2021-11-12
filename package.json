@@ -1,0 +1,40 @@
+{
+  "name": "@lima/pc-bussiness-comps",
+  "version": "1.2.0",
+  "description": "分页一条龙",
+  "main": "/lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib/*"
+  ],
+  "scripts": {
+    "clean": "rm -rf lib/",
+    "build": "npm run clean && tsc -p .",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git clone git@lima-tech.com:luoqing/pc-bussiness-comps.git"
+  },
+  "author": "luoqing <luoqing@zhongbaounion.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "antd": "^4.2.0",
+    "react": "^16.13.1",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "@ant-design/icons": "^4.1.0",
+    "@types/node": "^13.13.5",
+    "@types/react": "^16.9.34",
+    "@types/react-router-dom": "^5.1.5",
+    "antd": "^4.2.0",
+    "react": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "typescript": "^3.8.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "@lima:registry": "https://lima-tech.com/api/v4/projects/27/packages/npm/"
+  }
+}
