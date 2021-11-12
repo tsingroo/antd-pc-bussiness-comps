@@ -1,0 +1,16 @@
+.queryContainer {
+  background-color: white;
+  padding: 24px;
+}
+
+.queryHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  .queryTitle {
+      font-size: 16px;
+      font-weight: 500;
+      color: #333;
+  }
+}

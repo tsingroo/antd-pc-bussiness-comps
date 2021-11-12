@@ -1,0 +1,47 @@
+.infoBlockContainer {
+  border: 1px solid #eee;
+  width: 800px;
+  margin-bottom: 24px;
+}
+
+.infoBlockHeader {
+  border-bottom: 1px solid #eee;
+  background-color: #fafafa;
+  height: 36px;
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
+}
+
+
+.plainObjectInfoContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.groupHeader {
+  background-color: #ddd;
+  color: black;
+}
+
+.infoItem{
+  display: flex;
+  width: 398px;
+  height: 36px;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  .infoItemLabel{
+    width: 130px;
+    height: 36px;
+    padding-left: 12px;
+    padding-top: 8px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eee;
+  }
+  .infoItemValue{
+    flex: 1;
+    padding-left: 12px;
+  }
+}

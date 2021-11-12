@@ -3,13 +3,13 @@
 
 ##### 组件列表
 * ListQuery
-* BlockInfo
+* InfoBlock
 
 ------
 
 ##### ListQuery使用
 
 
-##### BlockInfo使用
+##### InfoBlock使用
 
 
