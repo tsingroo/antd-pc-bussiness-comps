@@ -1,6 +1,4 @@
 
-import InfoBlock, { IContentField } from './comps/info-block/info-block';
-
 // ListQuery
 export type { IDictItem } from './comps/list-query/list-query';
 export { default as ListQuery} from './comps/list-query/list-query';

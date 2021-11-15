@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "clean": "rm -rf lib/",
+    "compile": "ts-node compile.ts",
     "build": "npm run clean && tsc -p .",
     "prepublishOnly": "npm run build"
   },
