@@ -1,6 +1,6 @@
 {
   "name": "@lima/pc-bussiness-comps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "后台业务组件",
   "main": "/lib/index.js",
   "typings": "lib/index.d.ts",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git clone git@lima-tech.com:luoqing/pc-bussiness-comps.git"
+    "url": "git@lima-tech.com:luoqing/pc-bussiness-comps.git"
   },
   "author": "luoqing <luoqing@zhongbaounion.com>",
   "license": "MIT",
