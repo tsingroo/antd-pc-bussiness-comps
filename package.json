@@ -10,7 +10,6 @@
   "scripts": {
     "clean": "rm -rf lib/",
     "compile": "node compile.js",
-    "build": "npm run clean && tsc -p .",
     "prepublishOnly": "npm run build"
   },
   "repository": {

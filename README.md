@@ -1,4 +1,5 @@
-##### 命令
+##### 说明
+* 发布代码：线运行npm run compile，再运行npm publish
 * npm run compile:编译出可以发布到库的js代码
 
 
