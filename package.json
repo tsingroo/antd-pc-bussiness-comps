@@ -1,6 +1,6 @@
 {
   "name": "@lima/pc-bussiness-comps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "后台业务组件",
   "main": "/lib/index.js",
   "typings": "lib/index.d.ts",
@@ -9,12 +9,12 @@
   ],
   "scripts": {
     "clean": "rm -rf lib/",
-    "build": "npm run clean && tsc -p .",
+    "compile": "node compile.js",
     "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git clone git@lima-tech.com:luoqing/pc-bussiness-comps.git"
+    "url": "git@lima-tech.com:luoqing/pc-bussiness-comps.git"
   },
   "author": "luoqing <luoqing@zhongbaounion.com>",
   "license": "MIT",
@@ -29,6 +29,7 @@
     "antd": "^4.2.0",
     "react": "^16.13.1",
     "react-router-dom": "^5.1.2",
+    "shelljs": "^0.8.4",
     "typescript": "^3.8.3"
   },
   "publishConfig": {
@@ -39,6 +40,7 @@
     "@types/node": "^16.11.7",
     "@types/qs": "^6.9.7",
     "@types/react": "^17.0.34",
+    "glob": "^7.2.0",
     "qs": "^6.10.1"
   }
 }
