@@ -16,6 +16,11 @@ function compile() {
       ShellJs.cp( SOURCE_DIR + filePath, DEST_DIR + filePath);
     });
   });
+
+  // 某些控件二次封装后会丢失样式，需要而外复制一个antd.css样式
+  const ANTD_CSS_PATH = 'antd.css';
+  ShellJs.cp(SOURCE_DIR + ANTD_CSS_PATH, DEST_DIR + ANTD_CSS_PATH);
+  
 }
 
 compile();

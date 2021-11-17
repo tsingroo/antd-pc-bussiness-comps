@@ -1,6 +1,7 @@
 
 // ListQuery
 export type { IDictItem } from './comps/list-query/list-query';
+export type { IListQueryItem } from './comps/list-query/list-query';
 export { default as ListQuery} from './comps/list-query/list-query';
 
 // InfoBlock
