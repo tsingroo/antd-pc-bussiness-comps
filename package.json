@@ -1,7 +1,7 @@
 {
-  "name": "@lima/pc-bussiness-comps",
-  "version": "1.0.2",
-  "description": "后台业务组件",
+  "name": "pc-bussiness-comps",
+  "version": "1.0.6",
+  "description": "基于Antd封装的后台组件",
   "main": "/lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -11,16 +11,14 @@
     "build": "node compile.js",
     "prepublishOnly": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@lima-tech.com:luoqing/pc-bussiness-comps.git"
-  },
-  "author": "luoqing <luoqing@zhongbaounion.com>",
+  "author": "luoqing <tsingroo@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "antd": "^4.2.0",
     "react": "^16.13.1",
-    "react-router-dom": "^5.1.2"
+    "@ant-design/icons": "^4.1.0",
+    "react-router-dom": "^5.1.2",
+    "qs": "^6.10.1"
   },
   "devDependencies": {
     "@ant-design/icons": "^4.1.0",
@@ -32,8 +30,7 @@
     "typescript": "^3.8.3"
   },
   "publishConfig": {
-    "access": "public",
-    "@lima:registry": "https://lima-tech.com/api/v4/projects/27/packages/npm/"
+    "access": "public"
   },
   "dependencies": {
     "@types/node": "^16.11.7",

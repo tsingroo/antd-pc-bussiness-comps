@@ -6,6 +6,7 @@ import moment from 'moment';
 import qs from 'qs';
 import React from 'react';
 import { RouteComponentProps, withRouter } from 'react-router';
+import '../../antd.css';
 import styles from './list-query.module.scss';
 
 const { Item } = Form;
@@ -313,7 +314,7 @@ class ListQuery extends React.Component<IListQueryProps & RouteComponentProps, I
           // 先循环生成每一行的col，然后将每一行拼接起来
           let rowCols = [];
           for (let j = 0; j < cols; j++) {
-              const col = <Col span={colSpan} >
+              const col = <Col span={colSpan} key={'col' + j}>
                   {
                       items[index + j] ? (<Item name={items[index + j].fieldName} label={items[index + j].label}
                           rules={ items[index + j].isRequired ? [{ required: true, message: `${items[index + j].type === 'INPUT' ? '请填写': '请选择' }` }]: []} >
@@ -366,7 +367,7 @@ class ListQuery extends React.Component<IListQueryProps & RouteComponentProps, I
           }
 
           // 将每一行拼接
-          formRows.push(<Row>{rowCols}</Row>);
+          formRows.push(<Row key={'row' + index}>{rowCols}</Row>);
       }
 
       return <div className={styles.queryContainer}>
