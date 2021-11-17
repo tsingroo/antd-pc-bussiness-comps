@@ -1,6 +1,6 @@
 {
   "name": "pc-bussiness-comps",
-  "version": "1.0.6",
+  "version": "1.1.1",
   "description": "基于Antd封装的后台组件",
   "main": "/lib/index.js",
   "typings": "lib/index.d.ts",
@@ -13,6 +13,10 @@
   },
   "author": "luoqing <tsingroo@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsingroo/antd-pc-bussiness-comps"
+  },
   "peerDependencies": {
     "antd": "^4.2.0",
     "react": "^16.13.1",
