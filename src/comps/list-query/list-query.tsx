@@ -310,7 +310,7 @@ class ListQuery extends React.Component<IListQueryProps & RouteComponentProps, I
 
       // index 要小于items长度加上1(按钮所在col)
       let formRows = [];
-      for (let index = 0; index < items.length; index = index + cols ) {
+      for (let index = 0; index < items.length + 1; index = index + cols ) {
 
           // 先循环生成每一行的col，然后将每一行拼接起来
           let rowCols = [];
