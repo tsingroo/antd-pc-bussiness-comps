@@ -308,6 +308,7 @@ class ListQuery extends React.Component<IListQueryProps & RouteComponentProps, I
       const searchOptions = this.state.searchOptions;
       // const remoteSearchCtrlKeys = items.filter(item => item.type === 'REMOTE_SEARCH').map(item => item.fieldName);
 
+      // index 要小于items长度加上1(按钮所在col)
       let formRows = [];
       for (let index = 0; index < items.length; index = index + cols ) {
 
